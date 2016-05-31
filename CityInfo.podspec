@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "CityInfo"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "CityInfo."
   s.homepage     = "https://github.com/xiaowu2016/CityInfo"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "zhangchao" => "942777491@qq.com" }
-  s.source       = { :git => "https://github.com/xiaowu2016/CityInfo.git", :tag => "0.0.1"}
+  s.source       = { :git => "https://github.com/xiaowu2016/CityInfo.git", :tag => "0.0.2"}
   s.public_header_files = "CityInfo/**/*.h"
   #s.public_header_files = 'CityInfo/{*}.h'
   s.preserve_paths = 'CityInfo/*.h'
