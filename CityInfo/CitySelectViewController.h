@@ -13,11 +13,11 @@
 #import <UIKit/UIKit.h>
 #import "CityInfo.h"
 
-@protocol DDCitySelectViewControllerDelegate <NSObject>
+@protocol CitySelectViewControllerDelegate <NSObject>
 - (void)touchResponse:(CityInfo *)cityInfo;
 @end
 
-@protocol DDCitySelectViewControllerDataSource <NSObject>
+@protocol CitySelectViewControllerDataSource <NSObject>
 @required
 //热门城市
 - (NSArray *)loadHotCity;
@@ -27,6 +27,6 @@
 @end
 
 @interface CitySelectViewController : UIViewController
-@property (nonatomic, assign) id<DDCitySelectViewControllerDelegate> delegate;
-@property (nonatomic, assign) id<DDCitySelectViewControllerDataSource> dataSource;
+@property (nonatomic, assign) id<CitySelectViewControllerDelegate> delegate;
+@property (nonatomic, assign) id<CitySelectViewControllerDataSource> dataSource;
 @end
