@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
   s.name         = "CityInfo"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "CityInfo."
   s.homepage     = "https://github.com/xiaowu2016/CityInfo"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "zhangchao" => "942777491@qq.com" }
-  s.source       = { :git => "https://github.com/xiaowu2016/CityInfo.git", :tag => "0.0.4"}
+  s.source       = { :git => "https://github.com/xiaowu2016/CityInfo.git", :tag => "0.0.5"}
   s.public_header_files = "CityInfo/**/*.h"
   #s.public_header_files = 'CityInfo/{*}.h'
   s.preserve_paths = 'CityInfo/*.h'
   s.libraries = 'CityInfo'
-  s.resources = "CityInfo/**/*.*"
+  s.resources = "CityInfo/CitySelect.bundle"
   s.vendored_libraries = 'lib/libCityInfo.a'
   s.requires_arc = true
   s.platform = :ios,"7.0"
